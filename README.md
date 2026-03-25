@@ -1,8 +1,32 @@
-# React + Vite
+# Users Directory Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app that fetches Users from a public API and displays them in a dashboard with search, sorting, and user detail view functionality.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Fetch users from API
+* Display users in table
+* Show Name, Email, Phone, Company
+* Search users by Name or Email
+* Sort users by Name and Company (ASC / DESC)
+* Click user row to view full user details
+
+## Tech Stack
+
+* React
+* Vite
+* React Router DOM
+
+## API Used
+
+https://jsonplaceholder.typicode.com/users
+
+## Deployed Link 
+
+https://userdirectorydashboard.netlify.app/
+
+## Run Locally
+
+npm install
+npm run dev
+
